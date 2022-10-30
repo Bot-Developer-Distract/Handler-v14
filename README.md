@@ -12,6 +12,7 @@ Discord.js (version `14`) Slash-Commands Handler. Node.JS version `16.9.0` or hi
 
 | Features   | About |
 | ------------- | ------------- | 
-| `/` | This Handler Only Slash Commands support. ( Push `/` Commands Type: [**1**] `Global` [**2**] `Multi_Guild` [**3**] `Single_Guild` ) |
+| `/` | This Handler Only Slash Commands support. |
+|`Push / Commands`|  ( Support: [**1**] `Global` [**2**] `Multi_Guild` [**3**] `Single_Guild` ) |
 
 
