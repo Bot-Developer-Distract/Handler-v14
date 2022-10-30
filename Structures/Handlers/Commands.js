@@ -17,7 +17,7 @@ module.exports = async (client, PG, Ascii) => {
         if (!command.name) return Table.addRow(file.split("/")[7], "🔸 FAILED", "Missing A Name")
         if (!command.context && !command.description) return Table.addRow(command.name, "🔸 FAILED", "Missing A Description")
         if (command.UserPerms)
-        if (command.UserPerms.every(perms => Perms.includes(perms))) command.default_member_permissions = false
+        if (command.UserPerms.every(perms => Perms.includes(perms))) command.default_member_permissions = false //ture = see commands every member
         else return Table.addRow(command.name, "🔸 FAILED", "User Permission Is Invalid")
 
         client.commands.set(command.name, command)
